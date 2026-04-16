@@ -42,8 +42,8 @@ jobs:
         mvn sonar:sonar \
           -Dsonar.name=EMS_Project_2 \
           -Dsonar.projectKey=EMS_Project_2 \
-          -Dsonar.organization=vaman-pundit \
-          -Dsonar.login=admin \
+          -Dsonar.host.url=http://localhost:9000 \
+          -Dsonar.login=$SONAR_TOKEN
         
 
     # ── 5. Docker Build ──────────────────────────────────────────
