@@ -42,7 +42,7 @@ jobs:
         mvn sonar:sonar \
           -Dsonar.projectKey=sbi-ems \
           -Dsonar.organization=vaman-pundit \
-          -Dsonar.login=$SONAR_TOKEN
+          -Dsonar.login=$SONAR_TOKEN \
 
     # ── 5. Docker Build ──────────────────────────────────────────
     - name: Build Docker image
