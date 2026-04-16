@@ -35,7 +35,7 @@
         <springdoc.version>2.5.0</springdoc.version>
         <!-- SonarQube configuration -->
         <sonar.organization>vaman-pundit</sonar.organization>
-		<sonar.host.url>https://spring.io/projects/spring-boot/ems</sonar.host.url>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.projectKey>EMS_Project</sonar.projectKey>
         <sonar.projectName>SBI Employee Management System</sonar.projectName>
         <sonar.java.source>21</sonar.java.source>
