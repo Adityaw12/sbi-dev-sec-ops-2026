@@ -33,11 +33,14 @@
         <java.version>21</java.version>
         <jjwt.version>0.12.5</jjwt.version>
         <springdoc.version>2.5.0</springdoc.version>
-        <!-- SonarQube configuration -->
-        <sonar.host.url>http://localhost:9000</sonar.host.url>
+        <!-- SonarCloud configuration -->
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.organization>adityaw12</sonar.organization>
+        <sonar.projectKey>Adityaw12_Dev-Sec-Ops-training</sonar.projectKey>
         <sonar.projectName>EMS_Project_2</sonar.projectName>
-        <sonar.java.source>21</sonar.java.source>
-        <sonar.exclusions>**/test/**,**/generated/**</sonar.exclusions>
+
+    <sonar.java.source>21</sonar.java.source>
+    <sonar.exclusions>**/test/**,**/generated/**</sonar.exclusions>
     </properties>
 
     <!-- ═══════════════════════════════════════════════════════════════════════

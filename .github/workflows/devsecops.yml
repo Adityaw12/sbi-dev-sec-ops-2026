@@ -40,9 +40,9 @@ jobs:
         JWT_SECRET:  ${{ secrets.JWT_SECRET }}
       run: |
         mvn sonar:sonar \
-          -Dsonar.name=EMS_Project_2 \
-          -Dsonar.projectKey=EMS_Project_2 \
-          -Dsonar.host.url=http://localhost:9000 \
+          -Dsonar.projectKey=Adityaw12_Dev-Sec-Ops-training \
+          -Dsonar.organization=adityaw12 \
+          -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.login=$SONAR_TOKEN
         
 
