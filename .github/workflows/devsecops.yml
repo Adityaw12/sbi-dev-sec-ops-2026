@@ -43,7 +43,7 @@ jobs:
           -Dsonar.projectKey=Adityaw12_Dev-Sec-Ops-training \
           -Dsonar.organization=adityaw12 \
           -Dsonar.host.url=https://sonarcloud.io \
-          -Dsonar.login=$SONAR_TOKEN
+          -Dsonar.token=$SONAR_TOKEN 
         
 
     # ── 5. Docker Build ──────────────────────────────────────────
