@@ -40,9 +40,11 @@ jobs:
         JWT_SECRET:  ${{ secrets.JWT_SECRET }}
       run: |
         mvn sonar:sonar \
-          -Dsonar.projectKey=EMS_Project \
+          -Dsonar.name=EMS_Project_2 \
+          -Dsonar.projectKey=EMS_Project_2 \
           -Dsonar.organization=vaman-pundit \
-          -Dsonar.login=$SONAR_TOKEN \
+          -Dsonar.login=admin \
+        
 
     # ── 5. Docker Build ──────────────────────────────────────────
     - name: Build Docker image
